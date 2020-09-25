@@ -10,9 +10,11 @@ var server = http.createServer(function(req, res){
 		if(exist){
 			console.log("Existe: ");
 		}else{
-			console.log("NÃo Existe");
+			console.log("NÃƒo Existe");
 		}
 	});
 });
+
+
 
 server.listen(3000);
